@@ -1,4 +1,14 @@
-function getMode(array){
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function getMode(array){
     //count amount of occurences of each number
     //create object
     const obj = {};
@@ -13,10 +23,14 @@ function getMode(array){
         }else{
             //if already exists as key on the object,
             //increment its corresponding value.
-            obj[number] += 1;
+            obj[element] += 1;
         }
         
     });
     console.log(obj)
 }
 console.log(getMode([,1,2,2,3,3,4,4,5,6,7,8,9]));
+    </script>
+    
+</body>
+</html>

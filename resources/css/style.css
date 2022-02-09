@@ -4,9 +4,21 @@ body {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header--main {
+.header--main {
     font-weight: normal;
     font-size: 50px;
-    color: red;
+    color: white;
 
+}
+.header--secondary {
+    color: white;
+    font-size: 42px;
+    color: white;
+
+}
+.header--sub-header
+
+.link--cta {
+    font-size: 16px;
+    color: aquamarine;
 }
